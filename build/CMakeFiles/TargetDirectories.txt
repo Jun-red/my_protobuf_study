@@ -1,0 +1,4 @@
+/home/ysc/驱动/my_protobuf_study/build/CMakeFiles/writer_main.dir
+/home/ysc/驱动/my_protobuf_study/build/CMakeFiles/reader_main.dir
+/home/ysc/驱动/my_protobuf_study/build/CMakeFiles/edit_cache.dir
+/home/ysc/驱动/my_protobuf_study/build/CMakeFiles/rebuild_cache.dir

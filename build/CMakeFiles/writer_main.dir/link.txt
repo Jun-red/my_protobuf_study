@@ -1,0 +1,1 @@
+g++ -g CMakeFiles/writer_main.dir/idl/lp.helloworld.pb.cc.o CMakeFiles/writer_main.dir/src/writer.cpp.o -o writer_main   -L/usr/local/lib  -Wl,-rpath,/usr/local/lib -lprotobuf -lpthread 

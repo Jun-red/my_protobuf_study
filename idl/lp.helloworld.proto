@@ -1,0 +1,9 @@
+syntax = "proto3"; // 指定版本,默认为proto2
+
+package lp;  // learn-protobuf ;package关键字表示包,类似于namespace空间
+message helloworld
+{
+    int32 id = 1;
+    string str = 2;
+    int32 opt = 3;
+}
