@@ -1,0 +1,17 @@
+syntax = "proto3";  // 指定proto3
+
+package lp;  // learn-pb 
+
+message Point 
+{
+    sint32 x = 1;   // sint32 - 32位整数,处理负数效率高
+    sint32 y = 2; 
+    sint32 z = 3;
+}
+
+message PointCloud 
+{
+    repeated Point point = 1; 
+}
+
+// protoc -I=. ./lp.pointcloud.proto --cpp_out=.

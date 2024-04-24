@@ -1,5 +1,5 @@
-CMakeFiles/writer_main.dir/src/writer.cpp.o: \
- /home/ysc/驱动/my_protobuf_study/src/writer.cpp \
+CMakeFiles/writer_main.dir/src/pointcloud/writer.cpp.o: \
+ /home/ysc/驱动/my_protobuf_study/src/pointcloud/writer.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/7/iostream \
  /usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/7/bits/os_defines.h \
@@ -134,22 +134,37 @@ CMakeFiles/writer_main.dir/src/writer.cpp.o: \
  /usr/include/c++/7/bits/codecvt.h \
  /usr/include/x86_64-linux-gnu/c++/7/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/7/bits/c++io.h \
- /usr/include/c++/7/bits/fstream.tcc \
- /home/ysc/驱动/my_protobuf_study/idl/lp.helloworld.pb.h \
+ /usr/include/c++/7/bits/fstream.tcc /usr/include/c++/7/random \
+ /usr/include/c++/7/cmath /usr/include/math.h \
+ /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+ /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+ /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+ /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
+ /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+ /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+ /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+ /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+ /usr/include/c++/7/limits /usr/include/c++/7/bits/random.h \
+ /usr/include/c++/7/vector /usr/include/c++/7/bits/stl_construct.h \
+ /usr/include/c++/7/bits/stl_uninitialized.h \
+ /usr/include/c++/7/bits/stl_vector.h \
+ /usr/include/c++/7/bits/stl_bvector.h /usr/include/c++/7/bits/vector.tcc \
+ /usr/include/c++/7/bits/uniform_int_dist.h \
+ /usr/include/x86_64-linux-gnu/c++/7/bits/opt_random.h \
+ /usr/include/c++/7/bits/random.tcc /usr/include/c++/7/numeric \
+ /usr/include/c++/7/bits/stl_numeric.h \
+ /home/ysc/驱动/my_protobuf_study/idl/lp.pointcloud.pb.h \
  /usr/local/include/google/protobuf/stubs/common.h \
  /usr/include/c++/7/algorithm /usr/include/c++/7/utility \
  /usr/include/c++/7/bits/stl_relops.h /usr/include/c++/7/bits/stl_algo.h \
  /usr/include/c++/7/bits/algorithmfwd.h \
  /usr/include/c++/7/bits/stl_heap.h /usr/include/c++/7/bits/stl_tempbuf.h \
- /usr/include/c++/7/bits/stl_construct.h \
- /usr/include/c++/7/bits/uniform_int_dist.h /usr/include/c++/7/limits \
  /usr/include/c++/7/map /usr/include/c++/7/bits/stl_tree.h \
  /usr/include/c++/7/ext/aligned_buffer.h \
  /usr/include/c++/7/bits/stl_map.h /usr/include/c++/7/tuple \
  /usr/include/c++/7/array /usr/include/c++/7/bits/uses_allocator.h \
  /usr/include/c++/7/bits/invoke.h /usr/include/c++/7/bits/stl_multimap.h \
- /usr/include/c++/7/memory /usr/include/c++/7/bits/stl_uninitialized.h \
- /usr/include/c++/7/bits/stl_raw_storage_iter.h \
+ /usr/include/c++/7/memory /usr/include/c++/7/bits/stl_raw_storage_iter.h \
  /usr/include/c++/7/ext/concurrence.h \
  /usr/include/c++/7/bits/unique_ptr.h \
  /usr/include/c++/7/bits/shared_ptr.h \
@@ -161,8 +176,6 @@ CMakeFiles/writer_main.dir/src/writer.cpp.o: \
  /usr/include/c++/7/bits/atomic_lockfree_defines.h \
  /usr/include/c++/7/backward/auto_ptr.h /usr/include/c++/7/set \
  /usr/include/c++/7/bits/stl_set.h /usr/include/c++/7/bits/stl_multiset.h \
- /usr/include/c++/7/vector /usr/include/c++/7/bits/stl_vector.h \
- /usr/include/c++/7/bits/stl_bvector.h /usr/include/c++/7/bits/vector.tcc \
  /usr/local/include/google/protobuf/stubs/port.h /usr/include/assert.h \
  /usr/include/c++/7/stdlib.h /usr/include/c++/7/cstddef \
  /usr/include/string.h /usr/include/strings.h \

@@ -1,1 +1,1 @@
-g++ -g CMakeFiles/reader_main.dir/idl/lp.helloworld.pb.cc.o CMakeFiles/reader_main.dir/src/reader.cpp.o -o reader_main   -L/usr/local/lib  -Wl,-rpath,/usr/local/lib -lprotobuf -lpthread 
+g++ -g CMakeFiles/reader_main.dir/idl/lp.helloworld.pb.cc.o CMakeFiles/reader_main.dir/idl/lp.pointcloud.pb.cc.o CMakeFiles/reader_main.dir/src/pointcloud/reader.cpp.o -o reader_main   -L/usr/local/lib  -Wl,-rpath,/usr/local/lib -lprotobuf -lpthread 

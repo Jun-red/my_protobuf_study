@@ -1,8 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/reader_main.dir/idl/lp.helloworld.pb.cc.o"
   "CMakeFiles/reader_main.dir/idl/lp.helloworld.pb.cc.o.d"
-  "CMakeFiles/reader_main.dir/src/reader.cpp.o"
-  "CMakeFiles/reader_main.dir/src/reader.cpp.o.d"
+  "CMakeFiles/reader_main.dir/idl/lp.pointcloud.pb.cc.o"
+  "CMakeFiles/reader_main.dir/idl/lp.pointcloud.pb.cc.o.d"
+  "CMakeFiles/reader_main.dir/src/pointcloud/reader.cpp.o"
+  "CMakeFiles/reader_main.dir/src/pointcloud/reader.cpp.o.d"
   "reader_main"
   "reader_main.pdb"
 )

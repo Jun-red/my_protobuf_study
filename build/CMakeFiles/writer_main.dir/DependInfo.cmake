@@ -9,7 +9,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/ysc/驱动/my_protobuf_study/idl/lp.helloworld.pb.cc" "CMakeFiles/writer_main.dir/idl/lp.helloworld.pb.cc.o" "gcc" "CMakeFiles/writer_main.dir/idl/lp.helloworld.pb.cc.o.d"
-  "/home/ysc/驱动/my_protobuf_study/src/writer.cpp" "CMakeFiles/writer_main.dir/src/writer.cpp.o" "gcc" "CMakeFiles/writer_main.dir/src/writer.cpp.o.d"
+  "/home/ysc/驱动/my_protobuf_study/idl/lp.pointcloud.pb.cc" "CMakeFiles/writer_main.dir/idl/lp.pointcloud.pb.cc.o" "gcc" "CMakeFiles/writer_main.dir/idl/lp.pointcloud.pb.cc.o.d"
+  "/home/ysc/驱动/my_protobuf_study/src/pointcloud/writer.cpp" "CMakeFiles/writer_main.dir/src/pointcloud/writer.cpp.o" "gcc" "CMakeFiles/writer_main.dir/src/pointcloud/writer.cpp.o.d"
   )
 
 # Targets to which this target links.

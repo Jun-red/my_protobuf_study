@@ -169,53 +169,80 @@ idl/lp.helloworld.pb.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/reader_main.dir/build.make CMakeFiles/reader_main.dir/idl/lp.helloworld.pb.cc.s
 .PHONY : idl/lp.helloworld.pb.cc.s
 
-src/reader.o: src/reader.cpp.o
-.PHONY : src/reader.o
+idl/lp.pointcloud.pb.o: idl/lp.pointcloud.pb.cc.o
+.PHONY : idl/lp.pointcloud.pb.o
 
 # target to build an object file
-src/reader.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/reader_main.dir/build.make CMakeFiles/reader_main.dir/src/reader.cpp.o
-.PHONY : src/reader.cpp.o
+idl/lp.pointcloud.pb.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/writer_main.dir/build.make CMakeFiles/writer_main.dir/idl/lp.pointcloud.pb.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reader_main.dir/build.make CMakeFiles/reader_main.dir/idl/lp.pointcloud.pb.cc.o
+.PHONY : idl/lp.pointcloud.pb.cc.o
 
-src/reader.i: src/reader.cpp.i
-.PHONY : src/reader.i
+idl/lp.pointcloud.pb.i: idl/lp.pointcloud.pb.cc.i
+.PHONY : idl/lp.pointcloud.pb.i
 
 # target to preprocess a source file
-src/reader.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/reader_main.dir/build.make CMakeFiles/reader_main.dir/src/reader.cpp.i
-.PHONY : src/reader.cpp.i
+idl/lp.pointcloud.pb.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/writer_main.dir/build.make CMakeFiles/writer_main.dir/idl/lp.pointcloud.pb.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reader_main.dir/build.make CMakeFiles/reader_main.dir/idl/lp.pointcloud.pb.cc.i
+.PHONY : idl/lp.pointcloud.pb.cc.i
 
-src/reader.s: src/reader.cpp.s
-.PHONY : src/reader.s
+idl/lp.pointcloud.pb.s: idl/lp.pointcloud.pb.cc.s
+.PHONY : idl/lp.pointcloud.pb.s
 
 # target to generate assembly for a file
-src/reader.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/reader_main.dir/build.make CMakeFiles/reader_main.dir/src/reader.cpp.s
-.PHONY : src/reader.cpp.s
+idl/lp.pointcloud.pb.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/writer_main.dir/build.make CMakeFiles/writer_main.dir/idl/lp.pointcloud.pb.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reader_main.dir/build.make CMakeFiles/reader_main.dir/idl/lp.pointcloud.pb.cc.s
+.PHONY : idl/lp.pointcloud.pb.cc.s
 
-src/writer.o: src/writer.cpp.o
-.PHONY : src/writer.o
+src/pointcloud/reader.o: src/pointcloud/reader.cpp.o
+.PHONY : src/pointcloud/reader.o
 
 # target to build an object file
-src/writer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/writer_main.dir/build.make CMakeFiles/writer_main.dir/src/writer.cpp.o
-.PHONY : src/writer.cpp.o
+src/pointcloud/reader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reader_main.dir/build.make CMakeFiles/reader_main.dir/src/pointcloud/reader.cpp.o
+.PHONY : src/pointcloud/reader.cpp.o
 
-src/writer.i: src/writer.cpp.i
-.PHONY : src/writer.i
+src/pointcloud/reader.i: src/pointcloud/reader.cpp.i
+.PHONY : src/pointcloud/reader.i
 
 # target to preprocess a source file
-src/writer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/writer_main.dir/build.make CMakeFiles/writer_main.dir/src/writer.cpp.i
-.PHONY : src/writer.cpp.i
+src/pointcloud/reader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reader_main.dir/build.make CMakeFiles/reader_main.dir/src/pointcloud/reader.cpp.i
+.PHONY : src/pointcloud/reader.cpp.i
 
-src/writer.s: src/writer.cpp.s
-.PHONY : src/writer.s
+src/pointcloud/reader.s: src/pointcloud/reader.cpp.s
+.PHONY : src/pointcloud/reader.s
 
 # target to generate assembly for a file
-src/writer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/writer_main.dir/build.make CMakeFiles/writer_main.dir/src/writer.cpp.s
-.PHONY : src/writer.cpp.s
+src/pointcloud/reader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reader_main.dir/build.make CMakeFiles/reader_main.dir/src/pointcloud/reader.cpp.s
+.PHONY : src/pointcloud/reader.cpp.s
+
+src/pointcloud/writer.o: src/pointcloud/writer.cpp.o
+.PHONY : src/pointcloud/writer.o
+
+# target to build an object file
+src/pointcloud/writer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/writer_main.dir/build.make CMakeFiles/writer_main.dir/src/pointcloud/writer.cpp.o
+.PHONY : src/pointcloud/writer.cpp.o
+
+src/pointcloud/writer.i: src/pointcloud/writer.cpp.i
+.PHONY : src/pointcloud/writer.i
+
+# target to preprocess a source file
+src/pointcloud/writer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/writer_main.dir/build.make CMakeFiles/writer_main.dir/src/pointcloud/writer.cpp.i
+.PHONY : src/pointcloud/writer.cpp.i
+
+src/pointcloud/writer.s: src/pointcloud/writer.cpp.s
+.PHONY : src/pointcloud/writer.s
+
+# target to generate assembly for a file
+src/pointcloud/writer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/writer_main.dir/build.make CMakeFiles/writer_main.dir/src/pointcloud/writer.cpp.s
+.PHONY : src/pointcloud/writer.cpp.s
 
 # Help Target
 help:
@@ -230,12 +257,15 @@ help:
 	@echo "... idl/lp.helloworld.pb.o"
 	@echo "... idl/lp.helloworld.pb.i"
 	@echo "... idl/lp.helloworld.pb.s"
-	@echo "... src/reader.o"
-	@echo "... src/reader.i"
-	@echo "... src/reader.s"
-	@echo "... src/writer.o"
-	@echo "... src/writer.i"
-	@echo "... src/writer.s"
+	@echo "... idl/lp.pointcloud.pb.o"
+	@echo "... idl/lp.pointcloud.pb.i"
+	@echo "... idl/lp.pointcloud.pb.s"
+	@echo "... src/pointcloud/reader.o"
+	@echo "... src/pointcloud/reader.i"
+	@echo "... src/pointcloud/reader.s"
+	@echo "... src/pointcloud/writer.o"
+	@echo "... src/pointcloud/writer.i"
+	@echo "... src/pointcloud/writer.s"
 .PHONY : help
 
 

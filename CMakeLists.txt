@@ -69,13 +69,15 @@ include_directories(src)
  
 aux_source_directory(idl IDL)
 
+set(compile_path src/pointcloud)
+
 set(Writer 
     ${IDL}
-    src/writer.cpp 
+    ${compile_path}/writer.cpp 
 )
 set(Reader 
     ${IDL}
-    src/reader.cpp 
+    ${compile_path}/reader.cpp 
 )
 add_executable(writer_main ${Writer})
 add_executable(reader_main ${Reader})

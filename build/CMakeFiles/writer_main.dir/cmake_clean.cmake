@@ -1,8 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/writer_main.dir/idl/lp.helloworld.pb.cc.o"
   "CMakeFiles/writer_main.dir/idl/lp.helloworld.pb.cc.o.d"
-  "CMakeFiles/writer_main.dir/src/writer.cpp.o"
-  "CMakeFiles/writer_main.dir/src/writer.cpp.o.d"
+  "CMakeFiles/writer_main.dir/idl/lp.pointcloud.pb.cc.o"
+  "CMakeFiles/writer_main.dir/idl/lp.pointcloud.pb.cc.o.d"
+  "CMakeFiles/writer_main.dir/src/pointcloud/writer.cpp.o"
+  "CMakeFiles/writer_main.dir/src/pointcloud/writer.cpp.o.d"
   "writer_main"
   "writer_main.pdb"
 )

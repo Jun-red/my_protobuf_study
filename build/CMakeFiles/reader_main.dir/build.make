@@ -83,33 +83,49 @@ CMakeFiles/reader_main.dir/idl/lp.helloworld.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/reader_main.dir/idl/lp.helloworld.pb.cc.s"
 	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ysc/驱动/my_protobuf_study/idl/lp.helloworld.pb.cc -o CMakeFiles/reader_main.dir/idl/lp.helloworld.pb.cc.s
 
-CMakeFiles/reader_main.dir/src/reader.cpp.o: CMakeFiles/reader_main.dir/flags.make
-CMakeFiles/reader_main.dir/src/reader.cpp.o: /home/ysc/驱动/my_protobuf_study/src/reader.cpp
-CMakeFiles/reader_main.dir/src/reader.cpp.o: CMakeFiles/reader_main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ysc/驱动/my_protobuf_study/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/reader_main.dir/src/reader.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/reader_main.dir/src/reader.cpp.o -MF CMakeFiles/reader_main.dir/src/reader.cpp.o.d -o CMakeFiles/reader_main.dir/src/reader.cpp.o -c /home/ysc/驱动/my_protobuf_study/src/reader.cpp
+CMakeFiles/reader_main.dir/idl/lp.pointcloud.pb.cc.o: CMakeFiles/reader_main.dir/flags.make
+CMakeFiles/reader_main.dir/idl/lp.pointcloud.pb.cc.o: /home/ysc/驱动/my_protobuf_study/idl/lp.pointcloud.pb.cc
+CMakeFiles/reader_main.dir/idl/lp.pointcloud.pb.cc.o: CMakeFiles/reader_main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ysc/驱动/my_protobuf_study/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/reader_main.dir/idl/lp.pointcloud.pb.cc.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/reader_main.dir/idl/lp.pointcloud.pb.cc.o -MF CMakeFiles/reader_main.dir/idl/lp.pointcloud.pb.cc.o.d -o CMakeFiles/reader_main.dir/idl/lp.pointcloud.pb.cc.o -c /home/ysc/驱动/my_protobuf_study/idl/lp.pointcloud.pb.cc
 
-CMakeFiles/reader_main.dir/src/reader.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/reader_main.dir/src/reader.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ysc/驱动/my_protobuf_study/src/reader.cpp > CMakeFiles/reader_main.dir/src/reader.cpp.i
+CMakeFiles/reader_main.dir/idl/lp.pointcloud.pb.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/reader_main.dir/idl/lp.pointcloud.pb.cc.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ysc/驱动/my_protobuf_study/idl/lp.pointcloud.pb.cc > CMakeFiles/reader_main.dir/idl/lp.pointcloud.pb.cc.i
 
-CMakeFiles/reader_main.dir/src/reader.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/reader_main.dir/src/reader.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ysc/驱动/my_protobuf_study/src/reader.cpp -o CMakeFiles/reader_main.dir/src/reader.cpp.s
+CMakeFiles/reader_main.dir/idl/lp.pointcloud.pb.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/reader_main.dir/idl/lp.pointcloud.pb.cc.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ysc/驱动/my_protobuf_study/idl/lp.pointcloud.pb.cc -o CMakeFiles/reader_main.dir/idl/lp.pointcloud.pb.cc.s
+
+CMakeFiles/reader_main.dir/src/pointcloud/reader.cpp.o: CMakeFiles/reader_main.dir/flags.make
+CMakeFiles/reader_main.dir/src/pointcloud/reader.cpp.o: /home/ysc/驱动/my_protobuf_study/src/pointcloud/reader.cpp
+CMakeFiles/reader_main.dir/src/pointcloud/reader.cpp.o: CMakeFiles/reader_main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ysc/驱动/my_protobuf_study/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/reader_main.dir/src/pointcloud/reader.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/reader_main.dir/src/pointcloud/reader.cpp.o -MF CMakeFiles/reader_main.dir/src/pointcloud/reader.cpp.o.d -o CMakeFiles/reader_main.dir/src/pointcloud/reader.cpp.o -c /home/ysc/驱动/my_protobuf_study/src/pointcloud/reader.cpp
+
+CMakeFiles/reader_main.dir/src/pointcloud/reader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/reader_main.dir/src/pointcloud/reader.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ysc/驱动/my_protobuf_study/src/pointcloud/reader.cpp > CMakeFiles/reader_main.dir/src/pointcloud/reader.cpp.i
+
+CMakeFiles/reader_main.dir/src/pointcloud/reader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/reader_main.dir/src/pointcloud/reader.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ysc/驱动/my_protobuf_study/src/pointcloud/reader.cpp -o CMakeFiles/reader_main.dir/src/pointcloud/reader.cpp.s
 
 # Object files for target reader_main
 reader_main_OBJECTS = \
 "CMakeFiles/reader_main.dir/idl/lp.helloworld.pb.cc.o" \
-"CMakeFiles/reader_main.dir/src/reader.cpp.o"
+"CMakeFiles/reader_main.dir/idl/lp.pointcloud.pb.cc.o" \
+"CMakeFiles/reader_main.dir/src/pointcloud/reader.cpp.o"
 
 # External object files for target reader_main
 reader_main_EXTERNAL_OBJECTS =
 
 reader_main: CMakeFiles/reader_main.dir/idl/lp.helloworld.pb.cc.o
-reader_main: CMakeFiles/reader_main.dir/src/reader.cpp.o
+reader_main: CMakeFiles/reader_main.dir/idl/lp.pointcloud.pb.cc.o
+reader_main: CMakeFiles/reader_main.dir/src/pointcloud/reader.cpp.o
 reader_main: CMakeFiles/reader_main.dir/build.make
 reader_main: CMakeFiles/reader_main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ysc/驱动/my_protobuf_study/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable reader_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ysc/驱动/my_protobuf_study/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable reader_main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/reader_main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

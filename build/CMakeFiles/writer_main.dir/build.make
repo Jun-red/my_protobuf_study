@@ -83,33 +83,49 @@ CMakeFiles/writer_main.dir/idl/lp.helloworld.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/writer_main.dir/idl/lp.helloworld.pb.cc.s"
 	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ysc/驱动/my_protobuf_study/idl/lp.helloworld.pb.cc -o CMakeFiles/writer_main.dir/idl/lp.helloworld.pb.cc.s
 
-CMakeFiles/writer_main.dir/src/writer.cpp.o: CMakeFiles/writer_main.dir/flags.make
-CMakeFiles/writer_main.dir/src/writer.cpp.o: /home/ysc/驱动/my_protobuf_study/src/writer.cpp
-CMakeFiles/writer_main.dir/src/writer.cpp.o: CMakeFiles/writer_main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ysc/驱动/my_protobuf_study/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/writer_main.dir/src/writer.cpp.o"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/writer_main.dir/src/writer.cpp.o -MF CMakeFiles/writer_main.dir/src/writer.cpp.o.d -o CMakeFiles/writer_main.dir/src/writer.cpp.o -c /home/ysc/驱动/my_protobuf_study/src/writer.cpp
+CMakeFiles/writer_main.dir/idl/lp.pointcloud.pb.cc.o: CMakeFiles/writer_main.dir/flags.make
+CMakeFiles/writer_main.dir/idl/lp.pointcloud.pb.cc.o: /home/ysc/驱动/my_protobuf_study/idl/lp.pointcloud.pb.cc
+CMakeFiles/writer_main.dir/idl/lp.pointcloud.pb.cc.o: CMakeFiles/writer_main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ysc/驱动/my_protobuf_study/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/writer_main.dir/idl/lp.pointcloud.pb.cc.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/writer_main.dir/idl/lp.pointcloud.pb.cc.o -MF CMakeFiles/writer_main.dir/idl/lp.pointcloud.pb.cc.o.d -o CMakeFiles/writer_main.dir/idl/lp.pointcloud.pb.cc.o -c /home/ysc/驱动/my_protobuf_study/idl/lp.pointcloud.pb.cc
 
-CMakeFiles/writer_main.dir/src/writer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/writer_main.dir/src/writer.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ysc/驱动/my_protobuf_study/src/writer.cpp > CMakeFiles/writer_main.dir/src/writer.cpp.i
+CMakeFiles/writer_main.dir/idl/lp.pointcloud.pb.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/writer_main.dir/idl/lp.pointcloud.pb.cc.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ysc/驱动/my_protobuf_study/idl/lp.pointcloud.pb.cc > CMakeFiles/writer_main.dir/idl/lp.pointcloud.pb.cc.i
 
-CMakeFiles/writer_main.dir/src/writer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/writer_main.dir/src/writer.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ysc/驱动/my_protobuf_study/src/writer.cpp -o CMakeFiles/writer_main.dir/src/writer.cpp.s
+CMakeFiles/writer_main.dir/idl/lp.pointcloud.pb.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/writer_main.dir/idl/lp.pointcloud.pb.cc.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ysc/驱动/my_protobuf_study/idl/lp.pointcloud.pb.cc -o CMakeFiles/writer_main.dir/idl/lp.pointcloud.pb.cc.s
+
+CMakeFiles/writer_main.dir/src/pointcloud/writer.cpp.o: CMakeFiles/writer_main.dir/flags.make
+CMakeFiles/writer_main.dir/src/pointcloud/writer.cpp.o: /home/ysc/驱动/my_protobuf_study/src/pointcloud/writer.cpp
+CMakeFiles/writer_main.dir/src/pointcloud/writer.cpp.o: CMakeFiles/writer_main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ysc/驱动/my_protobuf_study/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/writer_main.dir/src/pointcloud/writer.cpp.o"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/writer_main.dir/src/pointcloud/writer.cpp.o -MF CMakeFiles/writer_main.dir/src/pointcloud/writer.cpp.o.d -o CMakeFiles/writer_main.dir/src/pointcloud/writer.cpp.o -c /home/ysc/驱动/my_protobuf_study/src/pointcloud/writer.cpp
+
+CMakeFiles/writer_main.dir/src/pointcloud/writer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/writer_main.dir/src/pointcloud/writer.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ysc/驱动/my_protobuf_study/src/pointcloud/writer.cpp > CMakeFiles/writer_main.dir/src/pointcloud/writer.cpp.i
+
+CMakeFiles/writer_main.dir/src/pointcloud/writer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/writer_main.dir/src/pointcloud/writer.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ysc/驱动/my_protobuf_study/src/pointcloud/writer.cpp -o CMakeFiles/writer_main.dir/src/pointcloud/writer.cpp.s
 
 # Object files for target writer_main
 writer_main_OBJECTS = \
 "CMakeFiles/writer_main.dir/idl/lp.helloworld.pb.cc.o" \
-"CMakeFiles/writer_main.dir/src/writer.cpp.o"
+"CMakeFiles/writer_main.dir/idl/lp.pointcloud.pb.cc.o" \
+"CMakeFiles/writer_main.dir/src/pointcloud/writer.cpp.o"
 
 # External object files for target writer_main
 writer_main_EXTERNAL_OBJECTS =
 
 writer_main: CMakeFiles/writer_main.dir/idl/lp.helloworld.pb.cc.o
-writer_main: CMakeFiles/writer_main.dir/src/writer.cpp.o
+writer_main: CMakeFiles/writer_main.dir/idl/lp.pointcloud.pb.cc.o
+writer_main: CMakeFiles/writer_main.dir/src/pointcloud/writer.cpp.o
 writer_main: CMakeFiles/writer_main.dir/build.make
 writer_main: CMakeFiles/writer_main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ysc/驱动/my_protobuf_study/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable writer_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ysc/驱动/my_protobuf_study/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable writer_main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/writer_main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
